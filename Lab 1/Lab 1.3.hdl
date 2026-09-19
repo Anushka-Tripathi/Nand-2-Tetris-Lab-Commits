@@ -1,4 +1,4 @@
-// HalfAdder
+// 1. HalfAdder
 CHIP HalfAdder {
     IN a, b;
     OUT sum, carry;
@@ -8,7 +8,7 @@ CHIP HalfAdder {
     And(a=a, b=b, out=carry);
 }
 
-// FullAdder
+// 2. FullAdder
 CHIP FullAdder {
     IN a, b, c;
     OUT sum, carry;
